@@ -32,6 +32,10 @@ ul {
 
 /* main */
 
+.filters-list {
+  background-color: #F5F4FA;
+}
+
 .main-title {
   color: #ffffff;
 }
