@@ -1,0 +1,32 @@
+body {
+  background-color: #f5f5f5;
+  color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+
+.header-logo {
+  color: #2196f3;
+}
+
+.header-list a {
+  color: #212121;
+}
+
+.header-list a:active {
+  color: #2196f3;
+}
+
+.contacts a {
+  color: #212121;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: #2196f3;
+}
+
