@@ -30,3 +30,17 @@ ul {
   color: #2196f3;
 }
 
+/* main */
+
+.main-title {
+  color: #ffffff;
+}
+
+.title,
+.subtitle {
+  color: #212121;
+}
+
+.discr {
+  color: #757575;
+}
