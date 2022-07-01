@@ -5,56 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header-nav">
-        <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
+        <a class="logo link" href="./index.html"><span class="web">Web</span>Studio</a>
 
-        <ul class="header-list">
+        <ul class="header-list list">
           <li class="header-item">
-            <a class="header-link" href="./index.html">Студия</a>
+            <a class="header-link link" href="./index.html">Студия</a>
           </li>
           <li class="header-item">
-            <a class="header-link" href="./portfolio.html">Портфолио</a>
+            <a class="header-link link header-link-current" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="header-item">
-            <a class="header-link" href="/">Контакты</a>
+            <a class="header-link link" href="/">Контакты</a>
           </li>
         </ul>
       </nav>
 
-      <ul class="contacts">
+      <ul class="contacts list">
         <li class="contacts-item">
-          <a class="contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contacts-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="contacts-item">
-          <a class="contacts-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contacts-phone link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
 
     <main class="filters">
       <div class="filters-list">
-        <button type="button" class="btn">Все</button>
-        <button type="button" class="btn">Веб-сайты</button>
-        <button type="button" class="btn">Приложения</button>
-        <button type="button" class="btn">Дизайн</button>
-        <button type="button" class="btn">Маркетинг</button>
+        <button type="button" class="filters-btn btn filters-btn-current">Все</button>
+        <button type="button" class="filters-btn btn">Веб-сайты</button>
+        <button type="button" class="filters-btn btn">Приложения</button>
+        <button type="button" class="filters-btn btn">Дизайн</button>
+        <button type="button" class="filters-btn btn">Маркетинг</button>
       </div>
 
       <section class="product">
         <!--Скрытый заголовок-->
         <h1>Проекты</h1>
-        <ul class="product-list">
+        <ul class="product-list list">
           <li class="product-item">
             <img
               src="./images/portfolio/imgtechnokryak.jpg"
               alt="три фото людей с команды на сайте"
               width="370"
               height="294"
-              class="img"
+              class="img link"
             />
             <h2 class="product-title">Технокряк</h2>
             <p class="product-descr">Веб-сайт</p>
@@ -65,7 +71,7 @@
               alt="два баскетболиста с мячом"
               width="370"
               height="294"
-              class="img"
+              class="img link"
             />
             <h2 class="product-title" lang="en">Постер New Orlean vs Golden Star</h2>
             <p class="product-descr">Дизайн</p>
@@ -76,7 +82,7 @@
               alt="название ресторана Seafood"
               width="370"
               height="294"
-              class="img"
+              class="img link"
             />
             <h2 class="product-title" lang="en">Ресторан Seafood</h2>
             <p class="product-descr">Приложение</p>
@@ -87,7 +93,7 @@
               alt="наушники"
               width="370"
               height="294"
-              class="img"
+              class="img link"
             />
             <h2 class="product-title" lang="en">Проект Prime</h2>
             <p class="product-descr">Маркетинг</p>
@@ -98,7 +104,7 @@
               alt="две коробки"
               width="370"
               height="294"
-              class="img"
+              class="img link"
             />
             <h2 class="product-title" lang="en">Проект Boxes</h2>
             <p class="product-descr">Приложение</p>
@@ -109,7 +115,7 @@
               alt="интернет-страница на мониторе"
               width="370"
               height="294"
-              class="img"
+              class="img link"
             />
             <h2 class="product-title" lang="en">Inspiration has no Borders</h2>
             <p class="product-descr">Веб-сайт</p>
@@ -120,7 +126,7 @@
               alt="журнал в котором две статьи и три фотографии"
               width="370"
               height="294"
-              class="img"
+              class="img link"
             />
             <h2 class="product-title" lang="en">Издание Limited Edition</h2>
             <p class="product-descr">Дизайн</p>
@@ -131,7 +137,7 @@
               alt="бирка с надписью lab el tag"
               width="370"
               height="294"
-              class="img"
+              class="img link"
             />
             <h2 class="product-title" lang="en">Проект LAB</h2>
             <p class="product-descr">Маркетинг</p>
@@ -142,7 +148,7 @@
               alt="руки на клавиатуре ноутбука с открытой веб-страницей"
               width="370"
               height="294"
-              class="img"
+              class="img link"
             />
             <h2 class="product-title" lang="en">Growing Business</h2>
             <p class="product-descr">Приложение</p>
@@ -152,13 +158,13 @@
     </main>
 
     <footer class="footer">
-      <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
+      <a class="footer-logo link" href="./index.html"><span class="web">Web</span>Studio</a>
 
       <address class="footer-address">
-        <ul class="footer-list">
+        <ul class="footer-list list">
           <li class="footer-item">
             <a
-              class="footer-link"
+              class="footer-link link foot"
               href="http://www.google.com/maps/place"
               target="_blank"
               rel="noopener noreferre"
@@ -166,10 +172,10 @@
             >
           </li>
           <li class="footer-item">
-            <a class="footer-mail" href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-mail link foot" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li class="footer-item">
-            <a class="footer-phone" href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="footer-phone link foot" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
