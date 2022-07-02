@@ -11,6 +11,7 @@
   --foot-txt-cl: rgba(255, 255, 255, 0.6);
 
   /* bg colors */
+  --white-bg-cl: #ffffff;
   --light-bg-cl: #f5f4fa;
   --dark-bg-cl: #2f303a;
   --accent-bg-cl: #2196f3;
@@ -39,8 +40,26 @@
 
 body {
   font-family: var(--main-font);
-  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--main-txt-cl);
+  background-color: var(--white-bg-cl);
+}
+
+/* hidden header */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* logo */
@@ -64,15 +83,12 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+  }
 
 /* HEADER */
 
 .header-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
@@ -86,16 +102,27 @@ body {
   color: var(--accent-txt-cl);
 }
 
-.contacts {
+.contacts-mail {
   font-weight: 500;
-  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--descr-txt-cl);
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-mail:hover,
+.contacts-mail:focus {
+  color: var(--accent-txt-cl);
+}
+
+.contacts-phone {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--descr-txt-cl);
+}
+
+.contacts-phone:hover,
+.contacts-phone:focus {
   color: var(--accent-txt-cl);
 }
 
@@ -130,16 +157,12 @@ body {
 
 .feature-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-txt-cl);
 }
 .feature-descr {
-  font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
   color: var(--descr-txt-cl);
 }
 
@@ -147,7 +170,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
-  letter-spacing: 0.03em;
   color: var(--main-txt-cl);
 }
 
@@ -159,14 +181,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
-  letter-spacing: 0.03em;
   color: var(--main-txt-cl);
 }
 
 .team-descr {
   font-size: 16px;
   line-height: calc(19 / 16);
-  letter-spacing: 0.03em;
   color: var(--descr-txt-cl);
 }
 
@@ -177,17 +197,13 @@ body {
 }
 
 .footer-link {
-  font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: var(--white-txt-cl);
 }
 
 .footer-mail,
 .footer-phone {
-  font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: var(--foot-txt-cl);
 }
 
@@ -203,7 +219,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-  letter-spacing: 0.03em;
   color: var(--main-txt-cl);
 }
 
@@ -229,6 +244,5 @@ body {
 .product-descr {
   font-size: 16px;
   line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
   color: var(--descr-txt-cl);
 }
